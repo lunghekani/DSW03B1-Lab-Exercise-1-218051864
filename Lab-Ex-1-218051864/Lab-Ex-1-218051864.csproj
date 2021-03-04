@@ -43,11 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\Lab-Ex-1-218051864.exe.config" />
+    <None Include="bin\financial-year.csv" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Lab-Ex-1-218051864.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Lab-Ex-1-218051864.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Lab-Ex-1-218051864.exe" />
+    <Content Include="bin\Debug\Lab-Ex-1-218051864.pdb" />
+    <Content Include="obj\Debug\Lab-Ex-1-218051864.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Lab-Ex-1-218051864.exe" />
+    <Content Include="obj\Debug\Lab-Ex-1-218051864.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
