@@ -8,8 +8,9 @@ namespace Lab_Ex_1_218051864
     {
         private static void Main(string[] args)
         {
-            List<string> lstYear = new List<string>(); // Years in the CSV
-            List<string> lstIndustryAgg = new List<string>(); // Levels in the CSV
+            // declared the column names as lists
+            List<string> lstYear = new List<string>(); 
+            List<string> lstIndustryAgg = new List<string>(); 
             List<string> lstIndustryCode = new List<string>();
             List<string> lstUnits = new List<string>();
             List<string> lstVarCode = new List<string>();
@@ -18,13 +19,17 @@ namespace Lab_Ex_1_218051864
             List<string> lstIndustryName = new List<string>();
             List<string> lstVal = new List<string>();
             List<string> lstCodeANZSI = new List<string>();
+            
+            // declaring the file
             var stReader = new StreamReader(@"../../financial-year.csv");
+
+            // loop through file
             while (!stReader.EndOfStream)
             {
-                
                 var line = stReader.ReadLine();
                 var val = line.Split(',');
 
+             // here I search if the entry exists in the lists if yes then skip if not then add to the list   
                 if (lstYear.Contains(val[0]))
                 {
                 } 
