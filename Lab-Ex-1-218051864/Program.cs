@@ -6,6 +6,11 @@ namespace Lab_Ex_1_218051864
 {
     internal class Program
     {
+        /*
+         * Why I think the file can be classified as big data
+         * This would be considered a large dataset that can be analysed
+         * to reveal patterns  and in this case see the trends in expenditure
+         */
         private static void Main(string[] args)
         {
             // declared the column names as lists
