@@ -18,7 +18,7 @@ namespace Lab_Ex_1_218051864
             List<string> lstIndustryName = new List<string>();
             List<string> lstVal = new List<string>();
             List<string> lstCodeANZSI = new List<string>();
-            var stReader = new StreamReader(@"../financial-year.csv");
+            var stReader = new StreamReader(@"../../financial-year.csv");
             while (!stReader.EndOfStream)
             {
                 
@@ -98,17 +98,7 @@ namespace Lab_Ex_1_218051864
             // Disclaimer
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("THE DATA HAS BEEN CONSOLIDATED FOR EASE OF DISCERNMENT");
-            //Console.ForegroundColor = ConsoleColor.Green;
-            //Console.WriteLine(lstYear.Count);
-            //Console.WriteLine(lstIndustryAgg.Count);
-            //Console.WriteLine(lstIndustryCode.Count);
-            //Console.WriteLine(lstUnits.Count);
-            //Console.WriteLine(lstVarCode.Count);
-            //Console.WriteLine(lstVarName.Count);
-            //Console.WriteLine(lstVariableCat.Count);
-            //Console.WriteLine(lstIndustryName.Count);
-            //Console.WriteLine(lstVal.Count);
-            //Console.WriteLine(lstCodeANZSI.Count);
+       
             
             // Displaying the Years
             Console.WriteLine("Years");
