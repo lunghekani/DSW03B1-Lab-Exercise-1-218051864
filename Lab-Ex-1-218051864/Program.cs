@@ -15,7 +15,7 @@ namespace Lab_Ex_1_218051864
         {
             //added comments
             // declared the column names as lists
-            List<string> lstYear = new List<string>(); 
+            List<string> lstYears = new List<string>(); 
             List<string> lstIndustryAgg = new List<string>(); 
             List<string> lstIndustryCode = new List<string>();
             List<string> lstUnits = new List<string>();
