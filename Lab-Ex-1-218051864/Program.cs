@@ -13,6 +13,7 @@ namespace Lab_Ex_1_218051864
          */
         private static void Main(string[] args)
         {
+            //added comments
             // declared the column names as lists
             List<string> lstYear = new List<string>(); 
             List<string> lstIndustryAgg = new List<string>(); 
